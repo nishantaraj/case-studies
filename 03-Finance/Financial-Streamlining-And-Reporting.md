@@ -20,7 +20,7 @@ In outline: payment events come from the payment provider, are matched to applic
 - Foreign exchange has its own accounts, so currency movement does not hide inside programme results.
 
 ## Reusable version
-[programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting) is a runnable illustration with invented data: coded transactions, monthly exchange rates, straight-line recognition of advance fees, overhead allocation and an exceptions list for rows that cannot be coded. It is my sketch of the idea, not the company's implementation.
+[programme-finance-reporting](https://github.com/nishantaraj/programme-finance-reporting) is a runnable illustration with invented data: coded transactions, monthly exchange rates, straight-line recognition of advance fees, overhead allocation and an exceptions list for rows that cannot be coded. It is my sketch of the idea, not the company's implementation.
 
 ## A note on numbers
 No amounts appear here. Revenue, cost and cash figures are company data and stay with the company.

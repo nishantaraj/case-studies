@@ -32,7 +32,7 @@ An internal finance console on its own schema in the shared database, plus a bro
 - Vendor bills: a PDF becomes a draft. The model may pick a programme code only from the real list. The draft carries mismatch flags and a confidence score and starts as pending, so a person confirms it.
 
 ## Reusable version
-[programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting) reproduces the profit-and-loss logic with invented data and tests. [Financial-Streamlining-And-Reporting](Financial-Streamlining-And-Reporting.md) covers the books behind it, and [Automated-Financial-Reporting](Automated-Financial-Reporting.md) the reports that arrive without anyone building them.
+[programme-finance-reporting](https://github.com/nishantaraj/programme-finance-reporting) reproduces the profit-and-loss logic with invented data and tests. [Financial-Streamlining-And-Reporting](Financial-Streamlining-And-Reporting.md) covers the books behind it, and [Automated-Financial-Reporting](Automated-Financial-Reporting.md) the reports that arrive without anyone building them.
 
 ## A note on numbers
 No amounts appear here. Cash, revenue, cost and profit are company data.

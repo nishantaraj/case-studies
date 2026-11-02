@@ -22,4 +22,4 @@ The code is the join key. It is the tracking value in the books, the metadata on
 - The books use it as the tracking value, which is what makes per-programme profitability possible.
 
 
-The invented-data version of this lives in [programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting).
+The invented-data version of this lives in [programme-finance-reporting](https://github.com/nishantaraj/programme-finance-reporting).

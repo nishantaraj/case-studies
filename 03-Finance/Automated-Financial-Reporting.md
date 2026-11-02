@@ -27,7 +27,7 @@ Daily reports run from time-driven Apps Script triggers. Each also has an ad hoc
 They rely on the same convention as the books and the console: one programme code on every row. That is what makes a programme-wise profit and loss possible, including deferred advance fees, foreign-exchange effects and allocated overhead. See [Programme-Code-Convention](Programme-Code-Convention.md) and [Financial-Streamlining-And-Reporting](Financial-Streamlining-And-Reporting.md).
 
 ## Reusable version
-[programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting) shows the programme-wise profit and loss calculation with invented data. [apps-script-daily-ops-toolkit](https://github.com/nishantaraaj-prog/apps-script-daily-ops-toolkit) shows the daily snapshot pattern.
+[programme-finance-reporting](https://github.com/nishantaraj/programme-finance-reporting) shows the programme-wise profit and loss calculation with invented data. [apps-script-daily-ops-toolkit](https://github.com/nishantaraj/apps-script-daily-ops-toolkit) shows the daily snapshot pattern.
 
 ## A note on numbers
 No figures appear here. Recipients and sheet identifiers are kept out of the public material.
