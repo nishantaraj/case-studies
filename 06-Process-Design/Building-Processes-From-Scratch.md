@@ -11,10 +11,10 @@ Most of what I have built started as something a person did by hand with no writ
 5. **Question the result.** Report a modest number I can defend over a big one I cannot.
 
 ## Processes I put in place
-- **A program code convention.** One identifier across finance, forms, payments and the database. See [Programme-Code-Convention](../03-Finance/Programme-Code-Convention.md).
-- **A platform readiness checklist.** Every new partner program site is scored against the same list: admin dashboard, Supabase backend, custom checkout, automated emails, campaign capture, lead capture, a WhatsApp chatbot, confirmation messages and mentor highlights. A site is not launched with gaps nobody has accepted.
-- **A catalogue rulebook.** One admin console is authoritative for partners, programs and cohorts. Nothing is copied locally.
-- **Registries.** Program links, response sheets, program calendar and automations each have one list that everything else reads.
+- **A programme code convention.** One identifier across finance, forms, payments and the database. See [Programme-Code-Convention](../03-Finance/Programme-Code-Convention.md).
+- **A platform readiness checklist.** Every new partner programme site is scored against the same list: admin dashboard, Supabase backend, custom checkout, automated emails, campaign capture, lead capture, a WhatsApp chatbot, confirmation messages and mentor highlights. A site is not launched with gaps nobody has accepted.
+- **A catalogue rulebook.** One admin console is authoritative for partners, programmes and cohorts. Nothing is copied locally.
+- **Registries.** Programme links, response sheets, programme calendar and automations each have one list that everything else reads.
 - **Dated build plans.** Every project records what it intends to change before changing it.
 
 ## Getting it used
