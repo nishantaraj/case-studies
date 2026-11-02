@@ -6,9 +6,9 @@ Leads came in through email, forms, meetings, and outreach campaigns. Qualifying
 ## What I built
 - Lead capture from the shared inboxes, written so a failed batch never marks messages as processed.
 - An email agent that handles lead replies, trained and corrected against real conversations.
-- A calling agent and campaign dialer, and a callback-request feature on the Effort First platform.
+- Calling agents, one per region and programme, with a campaign dialer and a callback-request feature on the Effort First platform. See [AI-Calling-Agents](AI-Calling-Agents.md).
 - AI analysis of meeting notes: a summary, objections, commitments, a lead score, and a suggested next step.
-- Automated reports: a daily snapshot email to the founders and a weekly financial report.
+- Automated reports: daily application and payment reports, a weekly financial overview and a quarterly programme-wise profit and loss. See [Automated-Financial-Reporting](../03-Finance/Automated-Financial-Reporting.md).
 
 ## The rule I care most about
 An agent does not get to send on its own because it was built. Before that, it goes through safety tests, a shadow stage where it drafts and a human compares, and a pilot. Approvals leave an audit trail, and a controls table holds runtime switches so a campaign can be stopped without a deploy. It is slower. It also means a bad agent run cannot quietly email hundreds of schools.
@@ -16,7 +16,7 @@ An agent does not get to send on its own because it was built. Before that, it g
 ## Outreach guardrails
 - Consent, suppression, and frequency limits are checked in the database before any send.
 - Do-not-contact lists are shared across tools, not kept per tool.
-- A school is locked to one program at a time, so two programs never pitch the same school.
+- A school is locked to one programme at a time, so two programmes never pitch the same school.
 - Message claims and brand voice rules live in a registry the agents read, instead of being retyped into prompts.
 
 ## Reusable version
