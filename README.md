@@ -29,10 +29,10 @@ Start with [the operating model, before and after](01-Organisation-Reshaped/Oper
 ## Runnable companions
 Original code with invented data, for the patterns described above:
 
-- [supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns): landing layer, money in minor units, consent, grants, an append-only audit log, and tests that run on real Postgres.
-- [programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting): programme-coded profit and loss with deferred revenue and multi-currency.
-- [payment-reconciliation-template](https://github.com/nishantaraaj-prog/payment-reconciliation-template): matching payments to applications idempotently.
-- [apps-script-daily-ops-toolkit](https://github.com/nishantaraaj-prog/apps-script-daily-ops-toolkit): daily snapshot, staged reminders, duplicate-safe CSV import.
+- [supabase-backend-patterns](https://github.com/nishantaraj/supabase-backend-patterns): landing layer, money in minor units, consent, grants, an append-only audit log, and tests that run on real Postgres.
+- [programme-finance-reporting](https://github.com/nishantaraj/programme-finance-reporting): programme-coded profit and loss with deferred revenue and multi-currency.
+- [payment-reconciliation-template](https://github.com/nishantaraj/payment-reconciliation-template): matching payments to applications idempotently.
+- [apps-script-daily-ops-toolkit](https://github.com/nishantaraj/apps-script-daily-ops-toolkit): daily snapshot, staged reminders, duplicate-safe CSV import.
 
 ## Scope
-No company code, student data, partner names, prices or financial figures appear anywhere in this repository. Earlier work from Excelerate (internship operations automation) is summarised in my [profile README](https://github.com/nishantaraaj-prog/nishantaraaj-prog).
+No company code, student data, partner names, prices or financial figures appear anywhere in this repository. Earlier work from Excelerate (internship operations automation) is summarised in my [profile README](https://github.com/nishantaraj/nishantaraj).
