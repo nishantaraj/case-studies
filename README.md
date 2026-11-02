@@ -2,11 +2,31 @@
 
 Write-ups of systems I designed and built at Learn with Leaders, an EdTech company running several student programs. The source code is the company's, so these cover the problem, the design, the trade-offs, and what I'd change.
 
-| Case study | One-line summary |
-|---|---|
-| [Unified data architecture](01-unified-data-architecture.md) | Eight-plus programs, one database, one set of rules for incoming data |
-| [Application-to-payment journey](02-application-to-payment-journey.md) | Forms, staged reminders, custom checkout, and reconciliation |
-| [LMS and portals](03-lms-and-portals.md) | An admin portal first, then a live student cohort |
-| [AI lead agents and reporting](04-ai-lead-agents-and-reporting.md) | Agents that have to earn autonomy, and reports nobody has to build by hand |
+Start with [the operating model, before and after](01-Organisation-Reshaped/Operating-Model-Before-And-After.md), then read whichever area interests you.
 
-Earlier work from Excelerate (internship operations automation) is summarized in the [profile README](https://github.com/nishantaraaj-prog).
+## Index
+
+| Folder | Case study | In one line |
+|---|---|---|
+| [01-Organisation-Reshaped](01-Organisation-Reshaped/) | [Operating model, before and after](01-Organisation-Reshaped/Operating-Model-Before-And-After.md) | How the company moved from a sheet per program to one trusted system |
+| [02-Data-And-Backend](02-Data-And-Backend/) | [Unified data architecture](02-Data-And-Backend/Unified-Data-Architecture.md) | Eight-plus programs, one database, one set of rules for incoming data |
+| | [Backend design principles](02-Data-And-Backend/Backend-Design-Principles.md) | The rules I apply to every table, webhook and migration |
+| [03-Finance](03-Finance/) | [Financial streamlining and reporting](03-Finance/Financial-Streamlining-And-Reporting.md) | Programme-coded books, deferred revenue, and reports that arrive on their own |
+| | [Programme code convention](03-Finance/Programme-Code-Convention.md) | One identifier across the books, the forms, the payments and the database |
+| [04-Product](04-Product/) | [Application-to-payment journey](04-Product/Application-To-Payment-Journey.md) | Forms, staged reminders, custom checkout, and reconciliation |
+| | [LMS and portals](04-Product/LMS-And-Portals.md) | An admin portal first, then a live student cohort |
+| | [Lovable build portfolio](04-Product/Lovable-Build-Portfolio.md) | What exists, how it is built, and the habits that keep it coherent |
+| [05-Automation-And-AI](05-Automation-And-AI/) | [AI lead agents and reporting](05-Automation-And-AI/AI-Lead-Agents-And-Reporting.md) | Agents that have to earn the right to send, and reports nobody builds by hand |
+| | [Daily automations with Apps Script](05-Automation-And-AI/Daily-Automations-With-Apps-Script.md) | The checks a person used to do every morning |
+| [06-Process-Design](06-Process-Design/) | [Building processes from scratch](06-Process-Design/Building-Processes-From-Scratch.md) | From unwritten habit to a rule people actually follow |
+
+## Runnable companions
+Original code with invented data, for the patterns described above:
+
+- [supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns): landing layer, money in minor units, consent, grants, an append-only audit log, and tests that run on real Postgres.
+- [programme-finance-reporting](https://github.com/nishantaraaj-prog/programme-finance-reporting): programme-coded profit and loss with deferred revenue and multi-currency.
+- [payment-reconciliation-template](https://github.com/nishantaraaj-prog/payment-reconciliation-template): matching payments to applications idempotently.
+- [apps-script-daily-ops-toolkit](https://github.com/nishantaraaj-prog/apps-script-daily-ops-toolkit): daily snapshot, staged reminders, duplicate-safe CSV import.
+
+## Scope
+No company code, student data, partner names, prices or financial figures appear anywhere in this repository. Earlier work from Excelerate (internship operations automation) is summarised in my [profile README](https://github.com/nishantaraaj-prog/nishantaraaj-prog).
