@@ -29,4 +29,4 @@ This page is the set of rules I apply when I add to either one.
 Write the ownership rules before the first table. Several of mine became explicit only when the first migration exposed a conflict.
 
 ## Reusable version
-[supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns) reproduces these ideas with invented names, plain SQL and a test suite that runs on a real Postgres.
+[supabase-backend-patterns](https://github.com/nishantaraj/supabase-backend-patterns) reproduces these ideas with invented names, plain SQL and a test suite that runs on a real Postgres.

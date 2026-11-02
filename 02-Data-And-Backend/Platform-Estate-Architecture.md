@@ -28,7 +28,7 @@ One shared database estate with a clear division of ownership.
 - Where a table's role names could not be changed, the code maps the older names instead of altering a shared definition.
 
 ## Reusable version
-The patterns underneath are reproduced with invented names and runnable tests in [supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns).
+The patterns underneath are reproduced with invented names and runnable tests in [supabase-backend-patterns](https://github.com/nishantaraj/supabase-backend-patterns).
 
 ## Related
 [Unified-Data-Architecture](Unified-Data-Architecture.md) covers the first consolidation. [Backend-Design-Principles](Backend-Design-Principles.md) lists the rules applied to every table and webhook.
