@@ -36,4 +36,4 @@ Per-agent view of contacts, queue, calls today and captured details. A call log 
 - I describe the rollout as staged. Some pilot steps still wait on owner validation, so I do not claim results at scale.
 
 ## Related
-[AI-Lead-Agents-And-Reporting](AI-Lead-Agents-And-Reporting.md) covers the wider rule for how any agent earns the right to act. The database side of consent and suppression is reproduced in [supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns).
+[AI-Lead-Agents-And-Reporting](AI-Lead-Agents-And-Reporting.md) covers the wider rule for how any agent earns the right to act. The database side of consent and suppression is reproduced in [supabase-backend-patterns](https://github.com/nishantaraj/supabase-backend-patterns).

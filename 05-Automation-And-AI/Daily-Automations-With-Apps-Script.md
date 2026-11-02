@@ -25,4 +25,4 @@ Behind the reports, scheduled database jobs refresh the application, payment, re
 - Unknowns are reported by name instead of being dropped silently.
 
 ## Reusable version
-[apps-script-daily-ops-toolkit](https://github.com/nishantaraaj-prog/apps-script-daily-ops-toolkit) has the daily snapshot email, the idempotent staged reminders and a duplicate-safe CSV importer, written from scratch.
+[apps-script-daily-ops-toolkit](https://github.com/nishantaraj/apps-script-daily-ops-toolkit) has the daily snapshot email, the idempotent staged reminders and a duplicate-safe CSV importer, written from scratch.

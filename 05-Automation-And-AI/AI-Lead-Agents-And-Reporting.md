@@ -20,7 +20,7 @@ An agent does not get to send on its own because it was built. Before that, it g
 - Message claims and brand voice rules live in a registry the agents read, instead of being retyped into prompts.
 
 ## Reusable version
-The database side of these guardrails is reproduced, with invented names and tests, in [supabase-backend-patterns](https://github.com/nishantaraaj-prog/supabase-backend-patterns).
+The database side of these guardrails is reproduced, with invented names and tests, in [supabase-backend-patterns](https://github.com/nishantaraj/supabase-backend-patterns).
 
 ## What I'd change
 I'd log human verdicts on agent outputs from the first run. Collecting them late made it harder to judge which agents deserved more freedom.
