@@ -1,7 +1,7 @@
 # Backend design principles
 
 ## Context
-The company's data lives in two Postgres databases on Supabase. One is the central spine for people, organisations, applications, payments, consent and outreach. The other backs the program sites, the LMS and the finance layer. Between them, edge functions handle intake, checkout, payment webhooks, reconciliation, and email and WhatsApp sends.
+The company's data lives in two Postgres databases on Supabase. One is the central spine for people, organisations, applications, payments, consent and outreach. The other backs the programme sites, the LMS and the finance layer. Between them, edge functions handle intake, checkout, payment webhooks, reconciliation, and email and WhatsApp sends.
 
 This page is the set of rules I apply when I add to either one.
 
